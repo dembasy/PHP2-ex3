@@ -19,7 +19,8 @@
     else {
       echo 'Vous êtes un homme et vous êtes mineur';
     }
-    ?></p>
+    ?>
+    </p>
     <p><?php
     if ($ageW.$genderW >= 18 ) {
       echo 'Vous êtes une femme et vous êtes majeur';
@@ -27,6 +28,7 @@
     else {
       echo 'Vous êtes une femme et vous êtes mineur';
     }
-    ?></p>
+    ?>
+    </p>
   </body>
 </html>
